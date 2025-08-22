@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.section-one{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-one h1{
+    color: purple;
+    font-size: 40px;
+    
+    border-radius: 5px;
+}
+
+.section-one li{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+
+.section-two{
+   border: 1px solid black;
+   border-radius: 30px;
+   width: 50%;
+   gap: 10px;
+   padding: 5px;
+}
+
+.section-two input{
+    border: none;
+    
+    font-size: 15px;
+}
+
+.section-two input:focus{
+    outline: none;
+}
+
+.section-one ul,li,i{
+    display: flex;
+    padding: 10px;
+}
+
+.section-three{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.section-three p{
+    background-color: purple;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.section-three p:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.section-five{
+    width: 20%;
+    padding: 10px;
+    
+    
+}
+
+.section-five img{
+    width: 100%;
+    height: 70%;
+    
+}
+
+.section-five p1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1{
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+
+.section-six{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.section-six p2{
+    flex-grow: 1;
+    border: 2px solid grey;
+    padding: 10px;
+ flex-basis: 25%;
+        
+
+}
+
+
+.cardsri{
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+
+}
+.section-seven{
+    width: 20%;
+}
+
+.section-seven img{
+    width: 100%;
+    height: 70%;
+
+
+}
+
+.carddharan{
+     justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+
+
+}
+
+.section-eight{
+     width: 20%;
+}
+
+.section-eight img{
+    width: 100%;
+    height: 70%;
+ 
+}
+
+.section-eight p{
+    position: relative;
+    right: 5px;
+}
+
+.section-nine{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 15px;
+    margin: 20px;
+    width: 100%;
+    
+}
+
+.section-nine1,.section-nine2{
+    margin: 10px;
+    
+}
+p{
+    margin: 20px;
+}
